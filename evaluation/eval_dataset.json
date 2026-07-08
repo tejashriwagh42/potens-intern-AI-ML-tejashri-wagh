@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the refund period for physical items?",
+    "ground_truth": "Refunds are available for physical items within 30 days of the purchase date, provided the items are unused and in original packaging.",
+    "expected_document": "refund_policy.txt"
+  },
+  {
+    "id": 2,
+    "question": "Are digital downloads refundable?",
+    "ground_truth": "Digital downloads and software licenses are non-refundable once the download link is accessed or the license key is activated.",
+    "expected_document": "refund_policy.txt"
+  },
+  {
+    "id": 3,
+    "question": "Under what conditions can the company suspend or terminate a user account?",
+    "ground_truth": "The company may suspend or terminate accounts immediately without prior notice if the user violates terms, engages in fraudulent behavior, or fails to pay fees.",
+    "expected_document": "terms_of_service.txt"
+  },
+  {
+    "id": 4,
+    "question": "How is user data encrypted and protected?",
+    "ground_truth": "Personal data is encrypted in transit using TLS 1.3 and at rest using AES-256 encryption. Access is restricted to authorized personnel.",
+    "expected_document": "privacy_policy.txt"
+  },
+  {
+    "id": 5,
+    "question": "Does the company sell user data to third-party advertisers?",
+    "ground_truth": "No, the company does not sell, rent, or lease personal information to third parties for marketing or advertising purposes.",
+    "expected_document": "privacy_policy.txt"
+  },
+  {
+    "id": 6,
+    "question": "What are the standard working hours and lunch break duration?",
+    "ground_truth": "Standard working hours are 9:00 AM to 5:30 PM, Monday through Friday, including a mandatory 45-minute unpaid lunch break.",
+    "expected_document": "employee_handbook.txt"
+  },
+  {
+    "id": 7,
+    "question": "How many days of paid vacation do full-time employees receive annually?",
+    "ground_truth": "Full-time employees receive 15 days of paid annual vacation, accrued monthly at a rate of 1.25 days per month.",
+    "expected_document": "employee_handbook.txt"
+  },
+  {
+    "id": 8,
+    "question": "What is the daily meal limit allowance for domestic business travel?",
+    "ground_truth": "The maximum daily reimbursement limit for meals during domestic business travel is $75, requiring itemized receipts for purchases over $25.",
+    "expected_document": "travel_policy.txt"
+  },
+  {
+    "id": 9,
+    "question": "Are business class flights allowed for travel under 4 hours?",
+    "ground_truth": "No, economy class must be booked for all flights under 4 hours. Business class is only permitted for flights exceeding 4 hours.",
+    "expected_document": "travel_policy.txt"
+  },
+  {
+    "id": 10,
+    "question": "Who should users contact for billing discrepancies and what is the timeframe?",
+    "ground_truth": "Users must contact the billing support team at billing@company.com within 60 days of the invoice date to dispute billing issues.",
+    "expected_document": "terms_of_service.txt"
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "average_recall@10": 1.0,
+    "average_precision@10": 0.19999999999999998,
+    "average_correctness": 0.9,
+    "total_queries_evaluated": 10
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "What is the refund period for physical items?",
+      "expected_document": "refund_policy.txt",
+      "generated_answer": "Refunds for physical items are available within 30 days of the purchase date, provided the items are unused and in their original packaging.",
+      "confidence_score": 0.53,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and fully covers all information present in the ground truth answer. There are no missing details, inaccuracies, or hallucinations. The phrasing is almost identical, conveying the same factual information."
+    },
+    {
+      "id": 2,
+      "question": "Are digital downloads refundable?",
+      "expected_document": "refund_policy.txt",
+      "generated_answer": "No, digital downloads are non-refundable once the download link has been accessed or the license key has been activated.",
+      "confidence_score": 0.45,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer completely and accurately reflects the information in the ground truth. It correctly states that digital downloads are non-refundable once the download link is accessed or the license key is activated, matching the conditions provided in the ground truth."
+    },
+    {
+      "id": 3,
+      "question": "Under what conditions can the company suspend or terminate a user account?",
+      "expected_document": "terms_of_service.txt",
+      "generated_answer": "The company reserves the right to suspend or terminate user accounts immediately without prior notice if the user violates the terms of service, engages in fraudulent behavior, or fails to pay applicable fees.",
+      "confidence_score": 0.53,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and accurately covers all the conditions mentioned in the ground truth answer for suspending or terminating a user account. The minor differences in phrasing (e.g., 'reserves the right' vs. 'may', 'terms of service' vs. 'terms', 'applicable fees' vs. 'fees') do not alter the meaning or correctness, and in some cases, provide slightly more precision without adding new information."
+    },
+    {
+      "id": 4,
+      "question": "How is user data encrypted and protected?",
+      "expected_document": "privacy_policy.txt",
+      "generated_answer": "Personal data is protected through encryption methods and access restrictions. Specifically, personal data is encrypted in transit using TLS 1.3 and at rest using AES-256 encryption. Access to this data is limited to authorized personnel who are bound by strict confidentiality agreements. Furthermore, the company does not sell, rent, or lease personal information to third parties for marketing or advertising purposes, and data is only shared with trusted service providers when essential for application operation.",
+      "confidence_score": 0.48,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer completely covers all the information provided in the ground truth, including the specific encryption methods (TLS 1.3 for in transit, AES-256 for at rest) and access restrictions. It also provides additional, correct, and relevant details about data protection (confidentiality agreements for personnel, no selling/renting, limited sharing with third parties) that enhance the answer without contradicting or missing any ground truth facts."
+    },
+    {
+      "id": 5,
+      "question": "Does the company sell user data to third-party advertisers?",
+      "expected_document": "privacy_policy.txt",
+      "generated_answer": "No, the company does not sell, rent, or lease personal information to third parties for marketing or advertising purposes. Data is only shared with trusted service providers that are essential for the operation of the application.",
+      "confidence_score": 0.49,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and fully covers the information provided in the ground truth answer. It also adds relevant, non-contradictory, and reinforcing information about data sharing with service providers, which enhances the answer without deviating from the core question."
+    },
+    {
+      "id": 6,
+      "question": "What are the standard working hours and lunch break duration?",
+      "expected_document": "employee_handbook.txt",
+      "generated_answer": "Standard working hours are from 9:00 AM to 5:30 PM, Monday through Friday. This schedule includes a mandatory 45-minute unpaid lunch break.",
+      "confidence_score": 0.53,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and accurately covers all information present in the ground truth answer, including the standard working hours, days, and the duration and nature of the lunch break."
+    },
+    {
+      "id": 7,
+      "question": "How many days of paid vacation do full-time employees receive annually?",
+      "expected_document": "employee_handbook.txt",
+      "generated_answer": "Full-time employees receive 15 days of paid annual vacation, which is accrued monthly at a rate of 1.25 days per month. Unused PTO can be carried over up to a maximum of 5 days per year.",
+      "confidence_score": 0.52,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer fully covers all information provided in the ground truth answer, including the number of vacation days and the accrual rate. It also provides additional, non-contradictory information regarding PTO carryover, which enhances the answer without making it incorrect or incomplete regarding the original question."
+    },
+    {
+      "id": 8,
+      "question": "What is the daily meal limit allowance for domestic business travel?",
+      "expected_document": "travel_policy.txt",
+      "generated_answer": "The maximum daily reimbursement limit for meals during domestic business travel is $75, and itemized receipts are required for purchases over $25.",
+      "confidence_score": 0.55,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and accurately reflects all information provided in the ground truth answer, including the daily limit and the receipt requirement."
+    },
+    {
+      "id": 9,
+      "question": "Are business class flights allowed for travel under 4 hours?",
+      "expected_document": "travel_policy.txt",
+      "generated_answer": "No, business class is not allowed for flights under 4 hours; economy class must be booked for such travel. Business class is only permitted for flights exceeding 4 hours, and it requires pre-approval by the department head.",
+      "confidence_score": 0.5,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 5,
+      "correctness_normalized": 1.0,
+      "correctness_reasoning": "The generated answer is completely correct and factual. It directly addresses the question and accurately reflects all information provided in the ground truth regarding business class flights for travel under 4 hours, and when business class is permitted. The additional detail about pre-approval does not contradict the ground truth or make the core answer incorrect, and it still fully covers the ground truth information."
+    },
+    {
+      "id": 10,
+      "question": "Who should users contact for billing discrepancies and what is the timeframe?",
+      "expected_document": "terms_of_service.txt",
+      "generated_answer": "Error generating answer. Please check LLM API logs.",
+      "confidence_score": 0.0,
+      "recall@10": 1.0,
+      "precision@10": 0.2,
+      "correctness_score_1_to_5": 1,
+      "correctness_normalized": 0.0,
+      "correctness_reasoning": "Failed to run LLM grading: Failed to call LLM after 5 attempts due to rate limits."
+    }
+  ]
+}
