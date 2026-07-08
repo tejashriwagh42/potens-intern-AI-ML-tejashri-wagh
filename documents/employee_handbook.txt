@@ -1,0 +1,7 @@
+# Employee Handbook
+
+Section 1: Office Hours
+Standard working hours are 9:00 AM to 5:30 PM, Monday through Friday, including a mandatory 45-minute unpaid lunch break.
+
+Section 2: Paid Time Off (PTO)
+Full-time employees receive 15 days of paid annual vacation, accrued monthly at a rate of 1.25 days per month. Unused PTO can carry over up to a maximum of 5 days per year.

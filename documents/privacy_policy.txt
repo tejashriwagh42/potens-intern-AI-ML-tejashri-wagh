@@ -1,0 +1,7 @@
+# Privacy Policy
+
+Section 1: Data Protection
+Personal data is encrypted in transit using TLS 1.3 and at rest using AES-256 encryption. Access is restricted to authorized personnel under strict confidentiality agreements.
+
+Section 2: Data Sharing
+No, the company does not sell, rent, or lease personal information to third parties for marketing or advertising purposes. Data is only shared with trusted service providers essential for application operation.
